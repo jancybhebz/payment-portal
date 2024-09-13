@@ -58,10 +58,10 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="images/businessicon.png">
                     <div class="card-body p-4">
                         <p class="text-primary card-text mb-0"></p>
-                        <h4 class="card-title">Business | Building | Working Permits</h4>
+                        <h4 class="card-title">Business, Building & Working Permits</h4>
                         <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                         <div class="d-flex">
                             <div>
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="images/watericon.png">
                     <div class="card-body p-4">
                         <p class="text-primary card-text mb-0"></p>
                         <h4 class="card-title">Waterworks Bills Payment</h4>
