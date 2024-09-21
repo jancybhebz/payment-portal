@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 
 <body style="background: url(&quot;https://ticketing.paete.gov.ph/uploads/1715737800_FB%20COVERS2.png&quot;);">
@@ -50,8 +50,30 @@
                         <h4 class="card-title" href="/rptpayments">Real Property Tax Payments</h4>
                         <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                         <div class="d-flex">
-                            <div>
-                            
+                        <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        PROCEED
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
                             </div>
                         </div>
                     </div>
@@ -64,10 +86,9 @@
                         <h4 class="card-title">Business, Building & Working Permits</h4>
                         <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                         <div class="d-flex">
-                            <div>
-                                 
-                                 
-                            </div>
+                        <div>
+                            <button class="btn btn-primary" type="button">Button</button>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -76,13 +97,13 @@
                 <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="images/watericon.png">
                     <div class="card-body p-4">
                         <p class="text-primary card-text mb-0"></p>
-                        <h4 class="card-title">Waterworks Bills Payment</h4>
+                        <h4 class="card-title">Waterworks Online Bills Payment</h4>
                         <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                         <div class="d-flex">
                             <div>
-                                 
-                                 
+                            <button class="btn btn-primary" type="button">Button</button>
                             </div>
+                            </p>
                         </div>
                     </div>
                 </div>
